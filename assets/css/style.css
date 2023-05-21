@@ -1,0 +1,50 @@
+body {
+    background-color: rgba(167, 177, 187, 0.74);
+}
+
+.areaCalculadora {
+    background-color: rgba(245, 246, 247, 0.877);
+    max-width: 600px;
+    height: auto;
+    margin: 80px auto;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.areaCalculadora H1 {
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+#inputCalculadora {
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(83, 83, 83, 0.349);
+}
+
+.row div {
+    padding: 5px;
+}
+.row div button {
+    width: 100%;
+    font-weight: bold;
+
+}
+
+/* versionamento do site */
+@media only screen and (max-width: 768px) {
+    .areaCalculadora {
+        font-size: 18px;
+        margin: 0;
+    }
+    .rowBtn {
+        margin: auto 10px !important;
+    }
+
+}
